@@ -1,0 +1,76 @@
+* {
+    position: absolute;
+}
+
+.header {
+    /* make it 1500px */
+    width: 1500px;
+    height: 500px;
+    border: crimson solid 20px;
+    border-image-source: linear-gradient(45deg,red, orange, yellow, green, blue, violet);
+    border-image-slice: 1;
+    background-color: #fcf5d2;
+}
+
+.head {
+    width: 400px;
+    height: 400px;
+    background-color: #ffd86c;
+    border-radius: 100%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 55%;
+}
+
+.face {
+    width: 150px;
+    height: 170px;
+    left: 75px;
+    top: 75px;
+}
+
+.mouth {
+    width: 115%;
+    height: 75px;
+    top: 160px;
+    left: 35px;
+    background-color: #20184E;
+    border-radius: 10px 10px 150px 150px;
+    border: 5px solid #20184E;
+}
+
+
+eye-group {
+    width: 150px;
+    height: 50px;
+    top: 20px;
+    left: 0;
+  }
+
+.eye {
+    background-color: #20184E;
+    width: 40px;
+    height: 60px;
+    border-radius: 50%;
+    top: 40px;
+}
+
+.eyeLeft {
+    left: 180px;
+}
+
+.eyeRight {
+ right: -70px;   
+}
+
+.smile {
+    top: 50%;
+    left: 70%;
+    font-family: blueEyes;
+    font-size: 90px;
+}
+
+@font-face {
+    font-family: blueEyes;
+    src: url(Blue\ Eyes\ -\ Personal\ Use.otf);
+}
