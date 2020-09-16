@@ -1,0 +1,5 @@
+for border gradient :
+https://css-tricks.com/gradient-borders-in-css/
+
+for css art : 
+https://dev.to/agathacco/how-to-create-pure-css-illustrations-and-animate-them---part-1-1j1k
